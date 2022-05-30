@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Workshop HTML</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href=""> Home </a> | <a href="#About"> About </a> |
+      <a href="#Work">Work </a> | <a href="#Resume">Resume </a>|
+      <a href="#Contact">Contact </a>
+    </nav>
+    <form>Search <input type="text" name="search" /></form>
+    <section id="About">
+      <h1>About</h1>
+      <p>
+        This website is dedicated to the company portfolio , youw will find all
+        activity, current projects , products , services and realisation
+      </p>
+    </section>
+
+    
+
+    <h1>This is my first application !</h1>
+    <!-- this is a comment -->
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/2BUfpTFNPwM"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <br />
+    <br />
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/2BUfpTFNPwM"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <br />
+    <br />
+
+    <section id="Work">
+      <h1><b> Work </b></h1>
+
+      <h2>Skills</h2>
+      <ol>
+        <li>
+          <p>HTML</p>
+          <div>
+            <div>90%</div>
+          </div>
+        </li>
+        <li>
+          <p>CSS</p>
+          <div>
+            <div>80%</div>
+          </div>
+        </li>
+        <li>
+          <p>JavaScript</p>
+          <div>
+            <div>65%</div>
+          </div>
+        </li>
+        <li>
+          <p>PHP</p>
+          <div>
+            <div>60%</div>
+          </div>
+        </li>
+      </ol>
+    </section>
+    <section id="Resume">
+      <form>
+        <input type="file" id="myFile" name="Resume" />
+        <input type="submit" />
+      </form>
+    </section>
+    <section id="Contact">
+      <form>
+        <fieldset style="width: 30%">
+          <label for="fname">First Name</label>
+
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+          <br />
+          <br />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <br />
+          <br />
+          <label for="country">Country</label> &nbsp;&nbsp;&nbsp;
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <br />
+          <br />
+          <label for="subject">Subject</label>
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+          <br />
+          <br />
+          <input type="submit" style="align-self: center" value="Submit" />
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
